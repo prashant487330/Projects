@@ -1,0 +1,39 @@
+
+        p{
+            color: blue;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(to bottom, rgba(255,0,0,0),rgba(255,0,0,1));
+        }
+
+        .btn{
+            background-color: rgb(166, 202, 101);
+            color: white;
+            height: 40px;
+            width: 100px;
+            border-radius: 15px;
+            font-size: 15px;
+        }
+        .btn:hover{
+            background-color: rgb(169, 155, 130);
+            color: black;
+        }
+
+        form{
+            margin-left:100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            padding: 80px;
+            background-color: rgb(211, 147, 152);
+            color: solid black;
+            font-size: 20px;
+            font-weight: 20px;
+            border-radius: 20px;
+        }
