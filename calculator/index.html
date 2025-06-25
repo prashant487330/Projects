@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 align="center">Calculator</h1>
+    <table border="1px" align="center" cellspacing="15px" cellpadding="25px" class="tab">
+        <tr>
+            <th colspan="4" id="screen">0</th>
+        </tr>
+        <tr class="white">
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+            <td onclick="cal('9')">9</td>
+        </tr>
+        <tr class="white">
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('4')">4</td>
+            <td onclick="cal('5')">5</td>
+        </tr>
+        <tr class="white">
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('00')">00</td>
+            <td onclick="cal('.')">.</td>
+        </tr>
+        <tr class="red">
+            <td onclick="cal('%')">%</td>
+            <td onclick="cal('/')">/</td>
+            <td onclick="cal('-')">-</td>
+            <td onclick="cal('*')">*</td>
+        </tr>
+        <tr>
+            <td class="aq" onclick="ac()">AC</td>
+            <td class="aq" onclick="del()">DEL</td>
+            <td class="red" onclick="res()">=</td>
+            <td class="red" onclick="cal('+')">+</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
