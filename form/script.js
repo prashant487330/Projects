@@ -18,7 +18,7 @@ let valid=()=>{
     errcpass.innerHTML=""
 
     if(Name==""){
-        errname.innerHTML="Please Eenter Your Name"
+        errname.innerHTML="Please Enter Your Name"
         return false
     }
     else if(Num==""){
