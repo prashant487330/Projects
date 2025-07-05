@@ -1,0 +1,53 @@
+.container{
+    height: 700px;
+    width: 700px; 
+    border: 2px solid black;
+    background-image: url(https://www.imagineonline.store/cdn/shop/files/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1b__en-IN_bfbeb796-1c49-4692-a68f-aaeaa75b8de9.jpg?v=1727250896&width=823);
+    margin-left: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.one{
+    height: 165px;
+    width: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(https://www.imagineonline.store/cdn/shop/files/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1b__en-IN_bfbeb796-1c49-4692-a68f-aaeaa75b8de9.jpg?v=1727250896&width=823);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two{
+    height: 165px;
+    width: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/tile/Apple-iPhone-16-Pro-hero-240909-lp.jpg.news_app_ed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three{
+    height: 165px;
+    width: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four{
+    height: 165px;
+    width: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/apple-iphone-16-pro-max-104808808-1x1.jpg?VersionId=A4mJaTK5YHrbtY7bBuGRIf_x94zAC5pZ);
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
