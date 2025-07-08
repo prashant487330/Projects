@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <h2>Registration Form</h2>
+        <p id="errname"></p>
+        Enter Name <input type="text" id="name">
+        
+        <p id="errnum"></p>
+        Enter Number <input type="text" id="num">
+        
+        <p id="errmail"></p>
+        Enter Email <input type="text" id="mail">
+        
+        <p id="errpass"></p>
+        Enter Password <input type="text" id="pass">
+        
+        <p id="errcpass"></p>
+        Confirm Password <input type="text" id="cpass">
+        <br> 
+        <input class="btn" type="submit" value="sign up" onclick="return valid()">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
