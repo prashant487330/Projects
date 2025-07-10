@@ -6,10 +6,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(https://png.pngtree.com/background/20230520/original/pngtree-group-of-doctors-pose-together-to-show-their-profession-picture-image_2673163.jpg); 
+    /* background:url(https://png.pngtree.com/background/20230520/original/pngtree-group-of-doctors-pose-together-to-show-their-profession-picture-image_2673163.jpg);  */
     background-repeat: no-repeat;
     background-size: cover;
-           
+    height: 730px;
 }
 
 .btn{
@@ -33,8 +33,8 @@ form{
     align-items: center;
     border: 1px solid black;
     padding: 60px;
-    margin-top: 20px;
-    background-color: rgba(55,233,87,0.7);
+    margin-top: 10px;
+    background-color: rgba(55,233,87,0.2);
     color: solid black;
     font-size: 20px;
     border-radius: 20px; 

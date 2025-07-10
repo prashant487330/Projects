@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 /* navbar css */
 .navbar{
     background-color: whitesmoke;
@@ -49,22 +52,140 @@
     color: greenyellow;
 }
 
+/* about section */
+.container{
+  background-image: url(https://img.freepik.com/free-photo/medicine-capsules-global-health-with-geometric-pattern-digital-remix_53876-126742.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  gap: 115px;
+  padding: 150px;
+  padding-left: 180px;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  color: #2b619e;
+  margin-top: 5px;
+}
+.box1{
+  height: 400px;
+  width: 300px;
+  background-color: whitesmoke;
+  color: green;
+  border: 1px black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  
+}
+.box2{
+  height: 400px;
+  width: 300px;
+  background-color: whitesmoke;
+  color: green;
+  border: 1px black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
+.box3{
+  height: 400px;
+  width: 300px;
+  background-color: whitesmoke;
+  color: green;
+  border: 1px black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;  
+}
+/* service section */
+.topic h1{
+  font-size: 70px;
+  font-family: serif;
+  padding-top: 50px;
+}
+.hero{
+    background-color: whitesmoke; 
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.hero h2{
+    letter-spacing:9px;
+    font-size: 70px;
+    font-weight: 100;
+}
+.btn{
+    color: black;
+    text-decoration: none;
+    background-color: greenyellow;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(179 134 0);
+}
+.button{
+  background-color: greenyellow;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 170px;
+  padding: 10px;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(179 134 0);
+}    
+.footer{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 70px;
+  gap: 300px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.icon a i{
+  color: green;
+}
 
 /* swipper css */
-html,
+ html,
     body {
       position: relative;
       height: 100%;
     }
 
-    .body {
+    body {
       background: #000;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #fff;
       margin: 0;
       padding: 0;
-    } 
+    }
 
     .swiper {
       width: 100%;
