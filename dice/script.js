@@ -1,4 +1,3 @@
-
 let Value=Math.floor(1+Math.random()*6)
 
 let show=document.querySelector("#one")
@@ -18,9 +17,7 @@ show4.style.display="none"
 
 let show5=document.querySelector("#six")
 show5.style.display="none"
-
-
-
+   
 if(Value==1){
     let show=document.querySelector("#one")
     show.style.display="block"
@@ -45,3 +42,4 @@ else if(Value==6){
     let show5=document.querySelector("#six")
     show5.style.display="block"
 }
+

@@ -1,21 +1,23 @@
 .container{
-     width: 500px;
-     height: 300px;
+     width: 200px;
+     height: 200px;
      border: 1px solid black;
-     margin:  auto;
+     margin: auto;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(3, 80px);
-     gap: 100px;
-     padding: 100px;
+     gap: 150px;
 }
-.box{
-    height: 70px;
-    width: 100px;
+.box img{
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: palevioletred;
-    text-align: center;
-    padding-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
 } 
+button{
+    margin-left: 750px;
+    margin-top: 250px;
+}
 
